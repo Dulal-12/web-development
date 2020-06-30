@@ -7,6 +7,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size:40px;
+}
+h3{
+    font-size:30px;
+}
 .name{
     color:orange;
 }
@@ -15,7 +21,51 @@ h1{
     float:left;
     margin-left:5%;
     padding:2%;
+    font-size:25px;
+    padding-bottom:100px;
 }
 .width img{
     width: 100%;
+}
+.banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(tomato,orange);
+    color:white;
+    border:1px solid green;
+    border-radius:10px;
+    padding:10px 20px;
+    font-weight: 700;
+}
+p{
+    color:dimgray;
+}
+.d{
+    width:1000px;
+    height:1000px;
+}
+.sign{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:40%;
+    width:40%;
+}
+#full{
+    border-left:7px solid;
+    border-image: linear-gradient(rgb(112, 112, 122),green);
+    border-image-slice: 1;
+}
+#mid{
+    border-left:7px solid;
+    border-image: linear-gradient(rgb(112, 112, 122),gold);
+    border-image-slice: 1;
+}
+.not{
+    margin-top: 50px;
 }
